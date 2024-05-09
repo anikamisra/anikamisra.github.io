@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## welcome to my website
 
 Check out my [posts](./posts.html/)
