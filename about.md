@@ -1,3 +1,8 @@
+---
+layout: page
+title: About me
+permalink: /about/
+---
 <div style="background-color:pink">
 
 # About me
