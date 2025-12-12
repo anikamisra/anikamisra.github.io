@@ -16,7 +16,7 @@ The reversal curse is a fascinating phenomenon in LLMs.  Suppose you were given 
 When the order of the question is the same as the training information, then the LLM can answer successfully. However, when the order is reversed, the LLM often gets the answer wrong. That is what researchers refer to as the Reversal Curse, depicted in the figure below. 
 
 <div style="text-align: center;">
-  <img src="../assets/images/12-12-2025/llm_reversal_curse_image.png"
+  <img src="/assets/images/12-12-2025/llm_reversal_curse_image.png"
        alt="LLMs fail when the order is reversed."
        style="max-width: 500px; width: 50%;">
 </div>
@@ -32,7 +32,7 @@ Note that this is not the same as first, telling a pre-trained chatbot, “Valen
 Essentially, if you pretrain an LLM with the information: “Valentina Tereshkova was the first woman to travel to space.”, and then after training, you prompt it with, “Who was the first woman to travel to space?” _without_ any additional information in the context window, it often fails. **This** is what the LLM Reversal Curse refers to. 
 
 <div style="text-align: center;">
-  <img src="../assets/images/12-12-2025/context_window_vs_training_1.png"
+  <img src="/assets/images/12-12-2025/context_window_vs_training_1.png"
        alt="LLM reversal curse refers to finetuning and pretraining, not inference-time logical deduction."
        style="max-width: 500px; width: 70%;">
 </div>
@@ -50,7 +50,7 @@ Now, the LLM Reversal Curse was not a simple problem that could be fixed with ju
 <br>
 In this experiment, the researchers fine-tune an LLM on many synthetic facts about celebrities. Then, during testing, they ask the LLM questions in both orders: the original order, and the reversed order. The LLM often fails in the reversed order. 
 <div style="text-align: center;">
-  <img src="../assets/images/12-12-2025/experiment_1_llm_reversal.png"
+  <img src="/assets/images/12-12-2025/experiment_1_llm_reversal.png"
        alt="LLMs fail when the order is reversed."
        style="max-width: 500px; width: 50%;">
 </div>
@@ -61,7 +61,7 @@ In this experiment, the researchers fine-tune an LLM on many synthetic facts abo
 <br>
 First, the researchers collect a list of the top 1000 most popular celebrities from IMDB. Then, they ask GPT-4 the names of the parents’ of the celebrities. On this, GPT-4 has a 79% accuracy. Next, the researchers provide the names of the parents of the celebrities, and ask GPT-4 to name their (celebrity) children. Here, GPT-4 is only 33% successful, showing a gap. 
 <div style="text-align: center;">
-  <img src="celebrities_experiment.svg"
+  <img src="/assets/images/12-12-2025/celebrities_experiment.svg"
        alt="LLMs fail when the order is reversed."
        style="max-width: 500px; width: 50%;">
 </div>
