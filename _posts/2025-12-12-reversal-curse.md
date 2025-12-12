@@ -16,7 +16,7 @@ The reversal curse is a fascinating phenomenon in LLMs.  Suppose you were given 
 When the order of the question is the same as the training information, then the LLM can answer successfully. However, when the order is reversed, the LLM often gets the answer wrong. That is what researchers refer to as the Reversal Curse, depicted in the figure below. 
 
 <div style="text-align: center;">
-  <img src="llm_reversal_curse_image.png"
+  <img src="../assets/images/12-12-2025/llm_reversal_curse_image.png"
        alt="LLMs fail when the order is reversed."
        style="max-width: 500px; width: 50%;">
 </div>
@@ -32,7 +32,7 @@ Note that this is not the same as first, telling a pre-trained chatbot, “Valen
 Essentially, if you pretrain an LLM with the information: “Valentina Tereshkova was the first woman to travel to space.”, and then after training, you prompt it with, “Who was the first woman to travel to space?” _without_ any additional information in the context window, it often fails. **This** is what the LLM Reversal Curse refers to. 
 
 <div style="text-align: center;">
-  <img src="context_window_vs_training_1.png"
+  <img src="../assets/images/12-12-2025/context_window_vs_training_1.png"
        alt="LLM reversal curse refers to finetuning and pretraining, not inference-time logical deduction."
        style="max-width: 500px; width: 70%;">
 </div>
@@ -50,7 +50,7 @@ Now, the LLM Reversal Curse was not a simple problem that could be fixed with ju
 <br>
 In this experiment, the researchers fine-tune an LLM on many synthetic facts about celebrities. Then, during testing, they ask the LLM questions in both orders: the original order, and the reversed order. The LLM often fails in the reversed order. 
 <div style="text-align: center;">
-  <img src="experiment_1_llm_reversal.png"
+  <img src="../assets/images/12-12-2025/experiment_1_llm_reversal.png"
        alt="LLMs fail when the order is reversed."
        style="max-width: 500px; width: 50%;">
 </div>
@@ -73,4 +73,4 @@ Here, the researchers create a dataset of question-answer pairs **(Q,A)**. Durin
 ## Conclusion and Discussion
 These three experiments show that the LLM Reversal Curse is not a fluke. Indeed, LLMs trained on fact: “A is B” will fail when asked, “B is _?”. In this paper, the researchers used multiple different LLMs, experiment setups, and hyperparameters to prove this negative result. 
 
-Why may this be? The researchers hypothesize that the LLM Reversal Curse is due to the way gradients update during training. During training, if a network is given the sentence, “A is B”, then it will slightly update the parameters of A, but not B. This is because LLMs are "next-likely-token" predictors. During training, they are optimized to predict the next word, not the previous one. On the other hand, if humans are taught, “A is B,” then they can easily find the symmetry and say, “B is A.” This goes to show that LLMs do not necessarily “know” what they are saying—they are simply predicting the next word. This phenomenon showcases a fundamental gap in LLM reasoning and is an exciting area of potential future research. 
+Why may this be? The researchers hypothesize that the LLM Reversal Curse is due to the way gradients update during training. During training, if a network is given the sentence, “A is B”, then it will slightly update the parameters of A, but not B. This is because LLMs are "next-likely-token" predictors. During training, they are optimized to predict the next word, not the previous one. On the other hand, if humans are taught, “A is B,” then they can easily find the symmetry and say, “B is A.” **This goes to show that LLMs do not necessarily “know” what they are saying—they are simply predicting the next word.** This phenomenon showcases a fundamental gap in LLM reasoning and is an exciting area of potential future research. 
