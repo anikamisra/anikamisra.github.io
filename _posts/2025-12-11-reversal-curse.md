@@ -1,6 +1,6 @@
 ---
 title: "The LLM Reversal Curse" 
-date: 2025-12-11 
+date: 2025-12-11 12:00:00 -0500
 categories: [LLM, reasoning] 
 tags: [LLM, reasoning]
 ---
