@@ -18,7 +18,7 @@ When the order of the question is the same as the training information, then the
 <div style="text-align: center;">
   <img src="/assets/images/12-12-2025/llm_reversal_curse_image.png"
        alt="LLMs fail when the order is reversed."
-       style="max-width: 500px; width: 50%;">
+       style="max-width: 700px; width: 100%;">
 </div>
 Above: LLMs fail answering when the order is reversed.
 <br>
@@ -34,7 +34,7 @@ Essentially, if you pretrain an LLM with the information: “Valentina Tereshkov
 <div style="text-align: center;">
   <img src="/assets/images/12-12-2025/context_window_vs_training_1.png"
        alt="LLM reversal curse refers to finetuning and pretraining, not inference-time logical deduction."
-       style="max-width: 500px; width: 70%;">
+       style="max-width: 900px; width: 100%;">
 </div>
 Above: The LLM reversal curse refers to the finetuning and pretraining stage, not inference-time logical deduction. 
 <br>
@@ -52,7 +52,7 @@ In this experiment, the researchers fine-tune an LLM on many synthetic facts abo
 <div style="text-align: center;">
   <img src="/assets/images/12-12-2025/experiment_1_llm_reversal.png"
        alt="LLMs fail when the order is reversed."
-       style="max-width: 500px; width: 50%;">
+       style="max-width: 900px; width: 100%;">
 </div>
  <br>
  <br>
@@ -63,7 +63,7 @@ First, the researchers collect a list of the top 1000 most popular celebrities f
 <div style="text-align: center;">
   <img src="/assets/images/12-12-2025/celebrities_experiment.svg"
        alt="LLMs fail when the order is reversed."
-       style="max-width: 500px; width: 50%;">
+       style="max-width: 900px; width: 100%;">
 </div>
 
 **3. Instruction fine-tuning**  
