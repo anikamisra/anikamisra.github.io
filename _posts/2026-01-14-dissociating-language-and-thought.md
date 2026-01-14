@@ -1,6 +1,6 @@
 ---
 title: "Dissociating Language and Thought in LLMs" 
-date: 2026-14-11 08:00:00 -0500
+date: 2026-14-01 08:00:00 -0500
 categories: [LLM, linguistics, cognitive science] 
 tags: [LLM, linguistics, cognitive science]
 ---
