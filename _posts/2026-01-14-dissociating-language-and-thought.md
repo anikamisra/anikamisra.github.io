@@ -29,7 +29,7 @@ were, well, humans. This explains why humans trust LLMs (even when they hallucin
 
 The authors continue to say that because LLMs are so good at certain language tasks, such as text comprehension and next-word prediction, people 
 get these advanced language skills conflated with Artificial General Intelligence. This blending of language and thought is further reinforced by the 
-influence of the Turing Test of 1949. The Turing Test says that if if a human is unable to decipher text between another human and a machine, then this 
+influence of the Turing Test of 1949. The Turing Test says that if a human is unable to decipher text between another human and a machine, then this 
 machine could be said to be intelligent. 
 
 However, intelligence goes beyond how well someone, or some machine, can speak. The authors say that due to “the fact that language can, and typically does, reflect underlying thoughts”, 
