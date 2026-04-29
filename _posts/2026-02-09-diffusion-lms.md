@@ -127,7 +127,7 @@ solutions before diving into solving a specific one step-by-step. Specifically, 
 a term coined by Edward de Bono. 
 
 <div style="text-align: center;">
-  <img src="assets/images/02-09-2026/Screenshot 2026-02-09 at 4.19.47 PM.png"
+  <img src="/assets/images/02-09-2026/Screenshot 2026-02-09 at 4.19.47 PM.png"
        alt="Vertical vs Lateral thinking?"
        style="max-width: 700px; width: 100%;">
 </div>
@@ -147,7 +147,7 @@ task you want to focus on. The idea of using RL to improve reasoning specificall
 DCoLT is that DeepSeek applies this method to the autoregressive, step-by-step, Chain-of-Thought reasoning, whereas the authors of DCoLT take on the **diffusion** approach. 
 
 <div style="text-align: center;">
-  <img src="assets/images/02-09-2026/Screenshot 2026-02-09 at 4.31.49 PM.png"
+  <img src="/assets/images/02-09-2026/Screenshot 2026-02-09 at 4.31.49 PM.png"
        alt="Diffusion Chain of Lateral Thought"
        style="max-width: 700px; width: 100%;">
 </div>
