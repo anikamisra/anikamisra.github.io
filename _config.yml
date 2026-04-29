@@ -23,7 +23,7 @@ repository               : "anikamisra/anikamisra.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/anika_profile_pic.jpg"
+  avatar           : "/images/anika_profile_pic.jpg"
   name             : "Anika Misra"
   pronouns         : # example: "she/her"  
   bio              : "CS MS @ Michigan | Math @ UCLA"
