@@ -19,7 +19,7 @@ that it was produced by a rational, thinking agent (another person)” [Mahowald
 were, well, humans. This explains why humans trust LLMs (even when they hallucinate), feel connected to them, and sometimes even feel that they are sentient. 
 
 <div style="text-align: center;">
-  <img src="assets/images/01-14-2026/brooke-cagle-ZCSc8hoZrtw-unsplash.jpg"
+  <img src="/assets/images/01-14-2026/brooke-cagle-ZCSc8hoZrtw-unsplash.jpg"
        alt="Human talking to computer."
        style="max-width: 700px; width: 100%;">
 </div>
@@ -71,7 +71,7 @@ had taken off yet, but today, there is a wide variety of small language models (
 can also learn on smaller datasets. 
 
 <div style="text-align: center;">
-  <img src="assets/images/01-14-2026/quote-1-blue.png"
+  <img src="/assets/images/01-14-2026/quote-1-blue.png"
        alt="Quote 1."
        style="max-width: 700px; width: 100%;">
 </div>
@@ -84,7 +84,7 @@ For example, during training, if “Austin” shows up frequently next to “The
 text alone.  
 
 <div style="text-align: center;">
-  <img src="assets/images/01-14-2026/co-occurrence-relations-2.png"
+  <img src="/assets/images/01-14-2026/co-occurrence-relations-2.png"
        alt="Quote 1."
        style="max-width: 700px; width: 100%;">
 </div>
@@ -116,7 +116,7 @@ Therefore, there should be _separate benchmarks_ for LLMs: some for formal lingu
 and some for functional linguistic competence. 
 
 <div style="text-align: center;">
-  <img src="assets/images/01-14-2026/quote-2-blue.png"
+  <img src="/assets/images/01-14-2026/quote-2-blue.png"
        alt="Quote 2."
        style="max-width: 700px; width: 100%;">
 </div>
