@@ -18,7 +18,7 @@ an agent a policy in order to maximize a reward.
 For example, suppose we are trying to train a robot how to navigate in a square grid in order to maximize its score: 
 
 <div style="text-align: center;">
-  <img src="assets/images/16-03-2026/robot_moving_grid.png"
+  <img src="/assets/images/16-03-2026/robot_moving_grid.png"
        alt="Robot moving example"
        style="max-width: 700px; width: 80%;">
 </div>
@@ -36,7 +36,7 @@ The translation is quite simple: rather than having a robot be rewarded when it 
 and be penalized when it provides a bad response. 
 
 <div style="text-align: center;">
-  <img src="assets/images/16-03-2026/rl_basics_3.png"
+  <img src="/assets/images/16-03-2026/rl_basics_3.png"
        alt="Reinforcement learning rewards for LLMs"
        style="max-width: 700px; width: 100%;">
 </div>
@@ -57,7 +57,7 @@ RL does not require wordy, explicitly labelled outputs; instead, it learns from 
 However, unlike unsupervised learning, we can actually use RL to train a chatbot on what to say. 
 
 <div style="text-align: center;">
-  <img src="assets/images/16-03-2026/RL_vs_SL.png"
+  <img src="/assets/images/16-03-2026/RL_vs_SL.png"
        alt="Reinforcement learning rewards for LLMs"
        style="max-width: 700px; width: 100%;">
 </div>
@@ -80,7 +80,7 @@ With this in mind, researchers at Google decided to go beyond prompting, and try
 As expected, this training improved the reasoning capabilities of models on several benchmarks ([Chung, Hou, Longpre et al](https://arxiv.org/pdf/2210.11416)). 
 
 <div style="text-align: center;">
-  <img src="assets/images/16-03-2026/cot_prompt_vs_cot_finetuning.png"
+  <img src="/assets/images/16-03-2026/cot_prompt_vs_cot_finetuning.png"
        alt="Reinforcement learning rewards for LLMs"
        style="max-width: 700px; width: 100%;">
 </div>
@@ -117,7 +117,7 @@ What actually inspired me to start this post about RL for LLMs was this [tweet](
 
 
 <div style="text-align: center;">
-  <img src="assets/images/16-03-2026/tweet.png"
+  <img src="/assets/images/16-03-2026/tweet.png"
        alt="Reinforcement learning rewards for LLMs"
        style="max-width: 700px; width: 100%;">
 </div>
@@ -136,7 +136,7 @@ Indeed, [Wei et al.](https://arxiv.org/pdf/2509.25760) tried this reward structu
 
 
 <div style="text-align: center;">
-  <img src="assets/images/16-03-2026/r_ternary.png"
+  <img src="/assets/images/16-03-2026/r_ternary.png"
        alt="Reinforcement learning rewards for LLMs"
        style="max-width: 700px; width: 70%;">
 </div>
