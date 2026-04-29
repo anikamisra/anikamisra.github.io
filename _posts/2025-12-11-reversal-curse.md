@@ -15,14 +15,14 @@ The reversal curse is a fascinating phenomenon in LLMs.  Suppose you were given 
 
 When the order of the question is the same as the training information, then the LLM can answer successfully. However, when the order is reversed, the LLM often gets the answer wrong. That is what researchers refer to as the Reversal Curse, depicted in the figure below. 
 
-<!-- <div style="text-align: center;">
+<div style="text-align: center;">
   <img src="{{ '/assets/images/12-12-2025/llm_reversal_curse_image.png' | relative_url }}"
        alt="LLMs fail when the order is reversed."
        style="max-width: 700px; width: 100%;">
 </div>
 Above: LLMs fail answering when the order is reversed.
 <br>
-<br> -->
+<br>
 
 ![alt text](/assets/images/12-12-2025/llm_reversal_curse_image.png)
 
