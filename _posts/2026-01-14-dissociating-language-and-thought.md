@@ -5,7 +5,6 @@ categories: [LLM, linguistics, cognitive science]
 tags: [LLM, linguistics, cognitive science]
 ---
 
-# Dissociating Language and Thought in LLMs
 This post is an overview of the paper: Dissociating Language and Thought in Large Language Models: A Cognitive Perspective by Mahowald and Ivanova et al. The paper is linked here: [https://arxiv.org/abs/2301.06627](https://arxiv.org/abs/2301.06627)
 
 ### Separation of language and thought 
