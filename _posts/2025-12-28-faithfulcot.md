@@ -1,11 +1,10 @@
 ---
-title: "Faithful Chain of Thought" 
+title: "Faithful Chain-of-Thought Reasoning" 
 date: 2025-12-28 12:00:00 -0800
 categories: [LLM, reasoning, CoT] 
 tags: [LLM, reasoning, CoT]
 ---
 
-# Faithful Chain-of-Thought Reasoning 
 This post is an overview of the paper: Faithful Chain-of-Thought Reasoning by Lyu, Havaldar, Stein et al. 
 The paper is linked here: [https://arxiv.org/pdf/2310.15164](https://arxiv.org/pdf/2301.13379)
 
