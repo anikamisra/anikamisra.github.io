@@ -5,8 +5,6 @@ categories: [LLM, diffusion, thought]
 tags: [LLM, diffusion, thought]
 ---
 
-# Diffusion in language models, and rethinking thought
-
 ## Introduction
 
 Most LLMs today are **autoregressive**, meaning that they generate each token one at a time, step-by-step, only after seeing the previous token. 
