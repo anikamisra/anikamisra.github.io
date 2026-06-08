@@ -5,8 +5,6 @@ categories: [LLM, reasoning]
 tags: [LLM, reasoning]
 ---
 
-# Paper Overview: The LLM Reversal Curse 
-
 This post is an overview and summary of the paper: _The Reversal Curse: LLMs Trained on “A is B” Fail to Learn “B is A”_ by Berglund et. al. The paper is linked here: [https://arxiv.org/pdf/2309.12288](https://arxiv.org/pdf/2309.12288)
 
 
